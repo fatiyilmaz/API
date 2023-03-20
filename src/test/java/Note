@@ -4,3 +4,9 @@ JUnit kullanicaz her zaman.
 De-Serialization: Json datanın Java objesine çevrilmesi.
 Serialization: Java objesinin, Json dataya çevrilmesi.
 kodlari json dan javaya cevirirken terminalde double gozukmesini degistirip int gozukmesini istedigimizden jackson library kullaniyoruz pom da.
+
+Mapler map dir. Collectonlar collectondir.
+
+
+hangi libraryi kullandiniz /Rest assured
+request methodlari nelerdir / Crud

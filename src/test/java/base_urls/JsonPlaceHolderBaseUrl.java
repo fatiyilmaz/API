@@ -9,8 +9,13 @@ public class JsonPlaceHolderBaseUrl {
 
     protected RequestSpecification spec;//protectec koymak; extend yapilmadan ulasilcak, kismi encapsualtion
 
-    @Before//Her test methodundan once calisir.
+    @Before//Her test methodundan once calisir. Tekrarlari ben burada yapiyorum.
     public void setUp(){
-        spec = new RequestSpecBuilder().setAccept(ContentType.JSON).setBaseUri("https://jsonplaceholder.typicode.com").build();
+        spec = new RequestSpecBuilder().setContentType(ContentType.JSON).setAccept(ContentType.JSON).setBaseUri("https://jsonplaceholder.typicode.com").build();
+
+        //setacceptcontenttype type karsiya gonderdigimizin kabul edildigi
+        //setcontenttype bizim icerigimiz
+
+
     }
 }
